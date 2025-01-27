@@ -8,5 +8,4 @@ model = OpenAIModel('gpt-4o', api_key=os.getenv('OPENAI_API_KEY'))
 agent = Agent(model=model)
 
 result = agent.run_sync("What is the capital of North Carolina?")
-
 print(result.data)
