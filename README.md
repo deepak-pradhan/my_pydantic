@@ -1,4 +1,4 @@
 # my_pydantic
 
-## [Install](00-installs.md)
+## [Install](_docs/00-installs.md)
  
