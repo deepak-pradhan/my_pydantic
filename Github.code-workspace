@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../aios"
+		}
+	],
+	"settings": {
+		"sqltools.autoConnectTo": "",
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"name": "base",
+				"group": "n8n",
+				"database": "${workspaceFolder:Github}/pydantic/app.db"
+			}
+		],
+		"sqltools.useNodeRuntime": true
+	}
+}
