@@ -4,7 +4,6 @@ from pydantic_ai.models.openai import OpenAIModel
 import os
 from dotenv import load_dotenv
 from colorama import Fore
-
 load_dotenv()
 
 client = AsyncAzureOpenAI(
