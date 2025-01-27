@@ -1,0 +1,15 @@
+[project]
+name = "my-pydantic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncio>=3.4.3",
+    "dataclasses>=0.8",
+    "devtools>=0.12.2",
+    "html-to-markdown>=1.1.0",
+    "pydantic-ai[logfire]>=0.0.20",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.9.3",
+]
